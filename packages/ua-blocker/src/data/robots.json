@@ -1,4 +1,11 @@
 {
+  "AddSearchBot": {
+    "operator": "Unclear at this time.",
+    "respect": "Unclear at this time.",
+    "function": "AI Search Crawlers",
+    "frequency": "Unclear at this time.",
+    "description": "AddSearchBot is a web crawler that indexes website content for AddSearch's AI-powered site search solution, collecting data to provide fast and accurate search results. More info can be found at https://darkvisitors.com/agents/agents/addsearchbot"
+  },
   "AI2Bot": {
     "operator": "[Ai2](https://allenai.org/crawler)",
     "respect": "Yes",
@@ -69,12 +76,19 @@
     "frequency": "Unclear at this time.",
     "description": "Connects to and crawls URLs that have been selected for use in a user's AWS bedrock application."
   },
+  "bigsur.ai": {
+    "operator": "Big Sur AI that fetches website content to enable AI-powered web agents, sales assistants, and content marketing solutions for businesses",
+    "respect": "Unclear at this time.",
+    "function": "AI Assistants",
+    "frequency": "Unclear at this time.",
+    "description": "bigsur.ai is a web crawler operated by Big Sur AI that fetches website content to enable AI-powered web agents, sales assistants, and content marketing solutions for businesses. More info can be found at https://darkvisitors.com/agents/agents/bigsur-ai"
+  },
   "Brightbot 1.0": {
-    "operator": "Browsing.ai",
+    "operator": "https://brightdata.com/brightbot",
     "respect": "Unclear at this time.",
     "function": "LLM/AI training.",
-    "frequency": "Unclear at this time.",
-    "description": "Scrapes data to train LLMs and AI products focused on website customer support."
+    "frequency": "At least one per minute.",
+    "description": "Scrapes data to train LLMs and AI products focused on website customer support, [uses residential IPs and legit-looking user-agents to disguise itself](https://ksol.io/en/blog/posts/brightbot-not-that-bright/)."
   },
   "Bytespider": {
     "operator": "ByteDance",
@@ -89,6 +103,13 @@
     "function": "Provides open crawl dataset, used for many purposes, including Machine Learning/AI.",
     "frequency": "Monthly at present.",
     "description": "Web archive going back to 2008. [Cited in thousands of research papers per year](https://commoncrawl.org/research-papers)."
+  },
+  "ChatGPT Agent": {
+    "operator": "[OpenAI](https://openai.com)",
+    "respect": "Yes",
+    "function": "AI Agents",
+    "frequency": "Unclear at this time.",
+    "description": "ChatGPT Agent is an AI agent created by OpenAI that can use a web browser. It can intelligently navigate and interact with websites to complete multi-step tasks on behalf of a human user. More info can be found at https://darkvisitors.com/agents/agents/chatgpt-agent"
   },
   "ChatGPT-User": {
     "operator": "[OpenAI](https://openai.com)",
@@ -124,6 +145,13 @@
     "function": "Scrapes data to train Anthropic's AI products.",
     "frequency": "No information provided.",
     "description": "Scrapes data to train LLMs and AI products offered by Anthropic."
+  },
+  "CloudVertexBot": {
+    "operator": "Unclear at this time.",
+    "respect": "Unclear at this time.",
+    "function": "AI Data Scrapers",
+    "frequency": "Unclear at this time.",
+    "description": "CloudVertexBot is a Google-operated crawler available to site owners to request targeted crawls of their own sites for AI training purposes on the Vertex AI platform. More info can be found at https://darkvisitors.com/agents/agents/cloudvertexbot"
   },
   "cohere-ai": {
     "operator": "[Cohere](https://cohere.com)",
@@ -230,6 +258,13 @@
     "operator": "Unknown",
     "respect": "[Yes](https://imho.alex-kunz.com/2024/01/25/an-update-on-friendly-crawler)"
   },
+  "Gemini-Deep-Research": {
+    "operator": "Unclear at this time.",
+    "respect": "Unclear at this time.",
+    "function": "AI Assistants",
+    "frequency": "Unclear at this time.",
+    "description": "Gemini-Deep-Research is the agent responsible for collecting and scanning resources used in Google Gemini's Deep Research feature, which acts as a personal research assistant. More info can be found at https://darkvisitors.com/agents/agents/gemini-deep-research"
+  },
   "Google-CloudVertexBot": {
     "operator": "Google",
     "respect": "[Yes](https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers)",
@@ -244,12 +279,26 @@
     "frequency": "No information.",
     "description": "Used to train Gemini and Vertex AI generative APIs. Does not impact a site's inclusion or ranking in Google Search."
   },
-  "GoogleOther": {
-    "description": "\"Used by various product teams for fetching publicly accessible content from sites. For example, it may be used for one-off crawls for internal research and development.\"",
-    "frequency": "No information.",
-    "function": "Scrapes data.",
+  "Google-Firebase": {
     "operator": "Google",
-    "respect": "[Yes](https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers)"
+    "respect": "Unclear at this time.",
+    "function": "Used as part of AI apps developed by users of Google's Firebase AI products.",
+    "frequency": "Unclear at this time.",
+    "description": "Supports Google's Firebase AI products."
+  },
+  "GoogleAgent-Mariner": {
+    "operator": "Google",
+    "respect": "Unclear at this time.",
+    "function": "AI Agents",
+    "frequency": "Unclear at this time.",
+    "description": "GoogleAgent-Mariner is an AI agent created by Google that can use a web browser. It can intelligently navigate and interact with websites to complete multi-step tasks on behalf of a human user. More info can be found at https://darkvisitors.com/agents/agents/googleagent-mariner"
+  },
+  "GoogleOther": {
+    "operator": "Google",
+    "respect": "[Yes](https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers)",
+    "function": "Scrapes data.",
+    "frequency": "No information.",
+    "description": "\"Used by various product teams for fetching publicly accessible content from sites. For example, it may be used for one-off crawls for internal research and development.\""
   },
   "GoogleOther-Image": {
     "description": "\"Used by various product teams for fetching publicly accessible content from sites. For example, it may be used for one-off crawls for internal research and development.\"",
@@ -314,6 +363,13 @@
     "frequency": "Unclear at this time.",
     "description": "Kangaroo Bot is used by the company Kangaroo LLM to download data to train AI models tailored to Australian language and culture. More info can be found at https://darkvisitors.com/agents/agents/kangaroo-bot"
   },
+  "LinerBot": {
+    "operator": "Unclear at this time.",
+    "respect": "Unclear at this time.",
+    "function": "AI Assistants",
+    "frequency": "Unclear at this time.",
+    "description": "LinerBot is the web crawler used by Liner AI assistant to gather information from academic sources and websites to provide accurate answers with line-by-line source citations for research and scholarly work. More info can be found at https://darkvisitors.com/agents/agents/linerbot"
+  },
   "meta-externalagent": {
     "operator": "[Meta](https://developers.facebook.com/docs/sharing/webmasters/web-crawlers)",
     "respect": "Yes",
@@ -342,6 +398,13 @@
     "frequency": "Unclear at this time.",
     "description": "Meta-ExternalFetcher is dispatched by Meta AI products in response to user prompts, when they need to fetch an individual links. More info can be found at https://darkvisitors.com/agents/agents/meta-externalfetcher"
   },
+  "meta-webindexer": {
+    "operator": "[Meta](https://developers.facebook.com/docs/sharing/webmasters/web-crawlers/)",
+    "respect": "Unclear at this time.",
+    "function": "AI Assistants",
+    "frequency": "Unhinged, more than 1 per second.",
+    "description": "As per their documentation, \"The Meta-WebIndexer crawler navigates the web to improve Meta AI search result quality for users. In doing so, Meta analyzes online content to enhance the relevance and accuracy of Meta AI. Allowing Meta-WebIndexer in your robots.txt file helps us cite and link to your content in Meta AI's responses.\""
+  },
   "MistralAI-User": {
     "operator": "Mistral",
     "respect": "Unclear at this time.",
@@ -362,6 +425,13 @@
     "function": "AI data scraper",
     "frequency": "Unclear at this time.",
     "description": "Operator and data use is unclear at this time."
+  },
+  "netEstate Imprint Crawler": {
+    "operator": "netEstate",
+    "respect": "Unclear at this time.",
+    "function": "AI Data Scrapers",
+    "frequency": "Unclear at this time.",
+    "description": "netEstate Imprint Crawler is an AI data scraper operated by netEstate. If you think this is incorrect or can provide additional detail about its purpose, please contact us. More info can be found at https://darkvisitors.com/agents/agents/netestate-imprint-crawler"
   },
   "NovaAct": {
     "operator": "Unclear at this time.",
@@ -390,6 +460,13 @@
     "function": "Data is sold.",
     "operator": "[Webz.io](https://webz.io/)",
     "respect": "[Yes](https://web.archive.org/web/20170704003301/http://omgili.com/Crawler.html)"
+  },
+  "OpenAI": {
+    "operator": "[OpenAI](https://openai.com)",
+    "respect": "Yes",
+    "function": "Unclear at this time.",
+    "frequency": "Unclear at this time.",
+    "description": "The purpose of this bot is unclear at this time but it is a member of OpenAI's suite of crawlers."
   },
   "Operator": {
     "operator": "Unclear at this time.",
@@ -489,47 +566,26 @@
     "operator": "[Zyte](https://www.zyte.com)",
     "respect": "Unclear at this time."
   },
-  "SemrushBot": {
-    "operator": "[Semrush](https://www.semrush.com/)",
-    "respect": "[Yes](https://www.semrush.com/bot/)",
-    "function": "Crawls your site for ContentShake AI tool.",
-    "frequency": "Roughly once every 10 seconds.",
-    "description": "You enter one text (on-demand) and we will make suggestions on it (the tool uses AI but we are not actively crawling the web, you need to manually enter one text/URL)."
-  },
-  "SemrushBot-BA": {
-    "operator": "[Semrush](https://www.semrush.com/)",
-    "respect": "[Yes](https://www.semrush.com/bot/)",
-    "function": "Crawls your site for ContentShake AI tool.",
-    "frequency": "Roughly once every 10 seconds.",
-    "description": "You enter one text (on-demand) and we will make suggestions on it (the tool uses AI but we are not actively crawling the web, you need to manually enter one text/URL)."
-  },
-  "SemrushBot-CT": {
-    "operator": "[Semrush](https://www.semrush.com/)",
-    "respect": "[Yes](https://www.semrush.com/bot/)",
-    "function": "Crawls your site for ContentShake AI tool.",
-    "frequency": "Roughly once every 10 seconds.",
-    "description": "You enter one text (on-demand) and we will make suggestions on it (the tool uses AI but we are not actively crawling the web, you need to manually enter one text/URL)."
-  },
   "SemrushBot-OCOB": {
     "operator": "[Semrush](https://www.semrush.com/)",
     "respect": "[Yes](https://www.semrush.com/bot/)",
     "function": "Crawls your site for ContentShake AI tool.",
     "frequency": "Roughly once every 10 seconds.",
-    "description": "You enter one text (on-demand) and we will make suggestions on it (the tool uses AI but we are not actively crawling the web, you need to manually enter one text/URL)."
-  },
-  "SemrushBot-SI": {
-    "operator": "[Semrush](https://www.semrush.com/)",
-    "respect": "[Yes](https://www.semrush.com/bot/)",
-    "function": "Crawls your site for ContentShake AI tool.",
-    "frequency": "Roughly once every 10 seconds.",
-    "description": "You enter one text (on-demand) and we will make suggestions on it (the tool uses AI but we are not actively crawling the web, you need to manually enter one text/URL)."
+    "description": "Data collected is used for the ContentShake AI tool reports."
   },
   "SemrushBot-SWA": {
     "operator": "[Semrush](https://www.semrush.com/)",
     "respect": "[Yes](https://www.semrush.com/bot/)",
-    "function": "Checks URLs on your site for SWA tool.",
+    "function": "Checks URLs on your site for SEO Writing Assistant.",
     "frequency": "Roughly once every 10 seconds.",
-    "description": "You enter one text (on-demand) and we will make suggestions on it (the tool uses AI but we are not actively crawling the web, you need to manually enter one text/URL)."
+    "description": "Data collected is used for the SEO Writing Assistant tool to check if URL is accessible."
+  },
+  "ShapBot": {
+    "operator": "[Parallel](https://parallel.ai)",
+    "respect": "[Yes](https://docs.parallel.ai/features/crawler)",
+    "function": "Collects data for Parallel's web APIs.",
+    "frequency": "Unclear at this time.",
+    "description": "ShapBot helps discover and index websites for Parallel's web APIs."
   },
   "Sidetrade indexer bot": {
     "description": "AI product training.",
@@ -537,6 +593,20 @@
     "function": "Extracts data for a variety of uses including training AI.",
     "operator": "[Sidetrade](https://www.sidetrade.com)",
     "respect": "Unclear at this time."
+  },
+  "TerraCotta": {
+    "operator": "[Ceramic AI](https://ceramic.ai/)",
+    "respect": "[Yes](https://github.com/CeramicTeam/CeramicTerracotta)",
+    "function": "AI Agents",
+    "frequency": "Unclear at this time.",
+    "description": "Downloads data to train LLMs."
+  },
+  "Thinkbot": {
+    "operator": "[Thinkbot](https://www.thinkbot.agency)",
+    "respect": "No",
+    "function": "Insights on AI integration and automation.",
+    "frequency": "Unclear at this time.",
+    "description": "Collects data for analysis on AI usage and automation."
   },
   "TikTokSpider": {
     "operator": "ByteDance",
@@ -579,6 +649,13 @@
     "function": "Live chat support and lead generation.",
     "frequency": "Unclear at this time.",
     "description": "wpbot is a used to support the functionality of the AI Chatbot for WordPress plugin. It supports the use of customer models, data collection and customer support."
+  },
+  "YaK": {
+    "operator": "[Meltwater](https://www.meltwater.com/en/suite/consumer-intelligence)",
+    "respect": "Unclear at this time.",
+    "function": "According to the [Meltwater Consumer Intelligence page](https://www.meltwater.com/en/suite/consumer-intelligence) 'By applying AI, data science, and market research expertise to a live feed of global data sources, we transform unstructured data into actionable insights allowing better decision-making'.",
+    "frequency": "Unclear at this time.",
+    "description": "Retrieves data used for Meltwater's AI enabled consumer intelligence suite"
   },
   "YandexAdditional": {
     "operator": "[Yandex](https://yandex.ru)",
